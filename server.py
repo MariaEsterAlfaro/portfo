@@ -4,7 +4,6 @@ import csv
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def initial():
     return render_template("index.html")
